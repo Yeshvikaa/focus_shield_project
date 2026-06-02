@@ -102,7 +102,7 @@ const StudyPDF = () => {
   }
 
   const { homework, submission } = data;
-  const pdfFullPath = `http://localhost:5000/${homework.pdfPath}`;
+  const pdfFullPath = `https://focus-shield-project.onrender.com/${homework.pdfPath}`;
 
   // Formatted seconds
   const formatTime = (secs) => {
