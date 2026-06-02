@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const PORT = process.env.PORT || 10000;
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/focus-shield';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://yaduraj:yaduraj@cluster0.vsk89qe.mongodb.net/?appName=Cluster0';
 
 // Connect to MongoDB
 mongoose.connect(MONGODB_URI)
