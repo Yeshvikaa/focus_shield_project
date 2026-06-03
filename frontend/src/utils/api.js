@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create instance pointing to backend server
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://focus-shield-project.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
